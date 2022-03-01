@@ -1,5 +1,6 @@
 window.onload = function () {
 
+    document.body.className = "fondo"
     var princ = document.createElement("div")
     document.body.appendChild(princ)
         var head = document.createElement("h1")
@@ -7,6 +8,7 @@ window.onload = function () {
         princ.appendChild(head)
         var cont = document.createElement("p")
         cont.innerHTML=("Habia una vez un Ingeniero. Este ingeniero era muy exitoso. Habia hecho su fortuna vendiendo software y ahora se dedeciaba a mantener una<br> empresa de distibucion de comida para gente que lo necesitaba. La empresa funcionaba a base de donaciones y anuncios publicitarios. Todos<br> los puestos eran muydemandantes pero se sentia bien trabajar ahi. Sin embargo, es dificil mantener una empresa que trabaja a base de caridad.<br> <br> En un particular dia, el ingeniero tom� la dificil decision de hacer cortes de personal para mantener la empresa a flote. Para ser lo mas justo<br> posible, el ingeniero busco a las personas con el rendimineto mas bajo de la empresa y las cit� una por una a su oficina para darles las noticias.<br> Cada dedspido fue dificil y devastador y al final del d�a el ingeniero estaba totalmente agotado, pero sab�a que era necesario.<br> <br> Y tenia raz�n, la empresa se logr� levantar denuevo y el Ingeniero estaba en el proceso de hacer recontrataciones de partes del<br> personal que habia dejado ir. Sin embargo, esto no fue posible ya que...<br> <br> Unas semanas despues, el Ingeniero iba regresando del trabajo, y todo se puso oscuro...<br>")
+        cont.className = "texto"
         princ.appendChild(cont)
         pic = document.createElement("figure")
         pict = document.createElement("img")
