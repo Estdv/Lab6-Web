@@ -1,3 +1,5 @@
+import "./Villano.css"
+
 window.onload = function () {
 
     document.body.className = "fondo"

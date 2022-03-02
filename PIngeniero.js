@@ -1,3 +1,5 @@
+import "./PIngeniero.css"
+import foto from './Inim.jpg';
 window.onload = function () {
 
     document.body.className = "fondo"
@@ -10,10 +12,10 @@ window.onload = function () {
         cont.innerHTML=("Habia una vez un Ingeniero. Este ingeniero era muy exitoso. Habia hecho su fortuna vendiendo software y ahora se dedeciaba a mantener una<br> empresa de distibucion de comida para gente que lo necesitaba. La empresa funcionaba a base de donaciones y anuncios publicitarios. Todos<br> los puestos eran muydemandantes pero se sentia bien trabajar ahi. Sin embargo, es dificil mantener una empresa que trabaja a base de caridad.<br> <br> En un particular dia, el ingeniero tom� la dificil decision de hacer cortes de personal para mantener la empresa a flote. Para ser lo mas justo<br> posible, el ingeniero busco a las personas con el rendimineto mas bajo de la empresa y las cit� una por una a su oficina para darles las noticias.<br> Cada dedspido fue dificil y devastador y al final del d�a el ingeniero estaba totalmente agotado, pero sab�a que era necesario.<br> <br> Y tenia raz�n, la empresa se logr� levantar denuevo y el Ingeniero estaba en el proceso de hacer recontrataciones de partes del<br> personal que habia dejado ir. Sin embargo, esto no fue posible ya que...<br> <br> Unas semanas despues, el Ingeniero iba regresando del trabajo, y todo se puso oscuro...<br>")
         cont.className = "texto"
         princ.appendChild(cont)
-        pic = document.createElement("figure")
-        pict = document.createElement("img")
-        pict.src = "Inim.jpg"
-        capt = document.createElement("figcaption")
+        var pic = document.createElement("figure")
+        var pict = document.createElement("img")
+        pict.src = foto
+        var capt = document.createElement("figcaption")
         capt.innerHTML="El ingeniero cuando su empresa sali� a flote"
         princ.appendChild(pic)
         pic.appendChild(pict)
@@ -54,7 +56,7 @@ window.onload = function () {
                 orli.appendChild(li4)
                     li4.appendChild(a4)
 
-        desp = document.createElement("p")
+        var desp = document.createElement("p")
         desp.innerHTML="Si ya termino de leer todos, puede seguir con la historia"
         princ.appendChild(desp)
 

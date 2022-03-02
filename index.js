@@ -6,14 +6,11 @@ window.onload = function () {
     var art = document.createElement("article")
         var head = document.createElement("header")
             var titulo = document.createElement("h2")
-            titulo.innerHTML = "Laboratorio 3 Tecnologias Web"
-            var p1 = document.createElement("p")
-            p1.innerHTML = "Esteban Del valle 18221"
+            titulo.innerHTML = "Laboratorio 6 Tecnologias Web"
 
     document.body.appendChild(art)
     art.appendChild(head)
     head.appendChild(titulo)
-    head.appendChild(p1)
 
     var princ = document.createElement("div")
     document.body.appendChild(princ)
@@ -77,7 +74,7 @@ window.onload = function () {
     foot = document.createElement("footer")
     document.body.appendChild(foot)
         par1 = document.createElement("p")
-        par1.innerHTML= "Se incluyeron todos los requerimientos opcionales de la rubrica"
+        par1.innerHTML= "Se incluyeron todos los requerimientos de la rubrica excepto la animacion"
         par2 = document.createElement("p")
         par2.innerHTML= "Si no encuentra uno porfavor preguntar :)"
         foot.appendChild(par1)

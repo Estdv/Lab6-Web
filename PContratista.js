@@ -1,3 +1,5 @@
+import "./PContratista.css"
+import foto from './Coim.jpg';
 window.onload = function () {
 
     document.body.className = "fondo"
@@ -10,10 +12,10 @@ window.onload = function () {
         cont.innerHTML=("Habia una vez, un contratista. Recientemente, le habian dado la oportunidad de realizar un proyecto libre en un terreno listo para demolici�n. En el pasado,<br> este contratista habia sido un vagabundo, hasta que un extra�o amable lo acogio en su hogar y le dio una oportunidad para salir adelante. El contratista queria<br> hacer hacer lo que habian hecho por el para muchas personas. As� que decidi� hacer un refugio y hogar de rehabilitacion para gente necesitada. Cuando le present�<br> la idea a los inversionistas, estos no esban muy de acuerdo ya que no ve�an potencial econ�mico en la idea. Despues de rogar, los ivnersionistas decidieron darle<br> solo la mitad del presupuesto para construir el refugio.<br> <br> El contratista estaba devastado, pero eso no lo detuvo de seguir adelante con el proyecto. No obstante, por la falta de presupuesto, tubo que hacer algunos sacrificios.<br> En vez de contratar a los constructores habituales con experiencia, subcontrato de una empresa mas barata, esperando resultados competentes y que siguieran todas las<br> medidas de seguridad y prevenci�n. Los materiales que tubo que comprar tambien eran de baja calidad, pero se estimaba que cumplirian el trabajo. El contratista sigui�<br> adelante con la demolici�n. Un d�a recibi� una llamada que habian habido ciertos problemas con los materiales peligrosos, y los inquilinos de la casa vecina. EL contratista<br> rapidamente lo solucion�, despidiendo a los empleados responsables y cambiando los materiales peligrosos. El proyecto sigu� en marcha, y aunque el contratista escucho que<br> hubo ciertos problemas legales, fueron solucionados sin mayor problema y su sue�o de ayudar seguia en marcha.<br> <br> Unas semanas despues, el Contratista iba regresando del trabajo, y todo se puso oscuro...<br>")
         cont.className = "texto"
         princ.appendChild(cont)
-        pic = document.createElement("figure")
-        pict = document.createElement("img")
-        pict.src = "Coim.jpg"
-        capt = document.createElement("figcaption")
+        var pic = document.createElement("figure")
+        var pict = document.createElement("img")
+        pict.src = foto
+        var capt = document.createElement("figcaption")
         capt.innerHTML = "El contratista iniciando el proyecto"
         princ.appendChild(pic)
         pic.appendChild(pict)
@@ -54,7 +56,7 @@ window.onload = function () {
                 orli.appendChild(li4)
                     li4.appendChild(a4)
 
-        desp = document.createElement("p")
+        var desp = document.createElement("p")
         desp.innerHTML="Si ya termino de leer todos, puede seguir con la historia"
         princ.appendChild(desp)
 

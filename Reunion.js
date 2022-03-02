@@ -1,3 +1,5 @@
+import "./Reunion.css"
+
 window.onload = function () {
 
     document.body.className = "fondo"
